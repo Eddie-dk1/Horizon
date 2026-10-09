@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0"><dict>
+  <key>CFBundleName</key><string>Horizon</string>
+  <key>CFBundleDisplayName</key><string>Horizon</string>
+  <key>CFBundleIdentifier</key><string>local.horizon.vault</string>
+  <key>CFBundleExecutable</key><string>Horizon</string>
+  <key>CFBundlePackageType</key><string>APPL</string>
+  <key>CFBundleShortVersionString</key><string>0.3.0</string>
+  <key>CFBundleVersion</key><string>3</string>
+  <key>CFBundleIconFile</key><string>Horizon.icns</string>
+  <key>LSMinimumSystemVersion</key><string>14.0</string>
+  <key>LSMultipleInstancesProhibited</key><true/>
+  <key>NSHighResolutionCapable</key><true/>
+  <key>NSSupportsAutomaticTermination</key><false/>
+  <key>NSPrincipalClass</key><string>NSApplication</string>
+  <key>CFBundleDevelopmentRegion</key><string>ru</string>
+  <key>CFBundleLocalizations</key><array><string>ru</string></array>
+  <key>CFBundleDocumentTypes</key><array><dict>
+    <key>CFBundleTypeName</key><string>Horizon Backup</string>
+    <key>CFBundleTypeRole</key><string>Viewer</string>
+    <key>LSHandlerRank</key><string>Owner</string>
+    <key>LSItemContentTypes</key><array><string>local.horizon.backup</string></array>
+  </dict></array>
+  <key>UTExportedTypeDeclarations</key><array><dict>
+    <key>UTTypeIdentifier</key><string>local.horizon.backup</string>
+    <key>UTTypeDescription</key><string>Horizon encrypted backup</string>
+    <key>UTTypeConformsTo</key><array><string>com.apple.package</string></array>
+    <key>UTTypeTagSpecification</key><dict><key>public.filename-extension</key><array><string>horizonbackup</string></array></dict>
+  </dict></array>
+</dict></plist>
